@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "सारथी - हाथ में फ़ोन, हर काम डन!",
+    "slug": "sarathi-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1E3A8A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sarathi.app"
+    },
+    "android": {
+      "package": "com.sarathi.app",
+      "versionCode": 1,
+      "permissions": [
+        "NOTIFICATIONS",
+        "RECORD_AUDIO"
+      ],
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.sarathi.app"
+    },
+    "web": {
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#1E3A8A"
+        }
+      ]
+    ]
+  }
+}
